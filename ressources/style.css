@@ -401,6 +401,7 @@ data-styled.g14[id="sc-f70b284e-5"] {
     top: 40px;
     left: 120px;
     line-height: 0px;
+    opacity: 0 !important;
 }
 
 @media (max-width: 620px) {
@@ -421,6 +422,7 @@ data-styled.g15[id="sc-f70b284e-6"] {
     top: 160px;
     right: 210px;
     line-height: 0px;
+    opacity: 0 !important;
 }
 
 @media (max-width: 620px) {
@@ -699,6 +701,7 @@ data-styled.g26[id="sc-a5b2b0a0-9"] {
     justify-content: center;
     pointer-events: all;
     cursor: pointer;
+    visibility: hidden;
 }
 
 @media (max-width: 620px) {
@@ -719,6 +722,11 @@ data-styled.g27[id="sc-a5b2b0a0-10"] {
 }
 
 .bTBcwd {
+    display: none;
+}
+
+.play-store {
+    visibility: hidden;
     display: none;
 }
 
